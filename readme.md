@@ -8,7 +8,7 @@ The purposes of this project are:
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Version 1](#v1)
+- [Version 1](#version-1)
 
 ## Introduction
 There are a ton of projects out there on using Koa, Koa and Knex, Koa and Typescript, Knex and Objection, but not that many that go into details on Koa, Typescript, Knex, and Objection.  There are even less examples when you add in MVC.  
