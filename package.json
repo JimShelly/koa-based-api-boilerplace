@@ -1,0 +1,31 @@
+{
+  "name": "jimapp6",
+  "version": "0.1.0",
+  "description": "A simple boilerplate app for a Koa based api",
+  "main": "index.js",
+  "typings": "src/typings/index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "watch-server": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node ./src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.45",
+    "@types/koa-bodyparser": "^4.2.0",
+    "@types/koa-router": "^7.0.28",
+    "@types/node": "^10.1.4",
+    "nodemon": "^1.17.5",
+    "ts-node": "^6.0.5",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  }
+}
