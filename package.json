@@ -1,6 +1,6 @@
 {
-  "name": "jimapp6",
-  "version": "0.1.0",
+  "name": "koa-based-api-boilerplate",
+  "version": "2.0.0",
   "description": "A simple boilerplate app for a Koa based api",
   "main": "index.js",
   "typings": "src/typings/index.d.ts",
@@ -11,8 +11,8 @@
     "watch-server": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node ./src/app.ts"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Jim Shelly",
+  "license": "MIT",
   "dependencies": {
     "koa": "^2.5.1",
     "koa-bodyparser": "^4.2.1",
